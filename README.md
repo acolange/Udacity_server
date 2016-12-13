@@ -10,7 +10,6 @@ The connection information for the server is
 
  Live URL: http://35.165.75.211
 ```
----
 
 The software running the application on the server includes the following:
 
@@ -18,8 +17,12 @@ The software running the application on the server includes the following:
 |------|      
 |Apache v2.4.7|
 |UFW v0.34|
-|mod-wsgi|
+|mod-wsgi v3.4|
 
 |Application|
 |-----------|
 |Python v2.7.6|
+|PostgreSQL v9.3.15|
+|Flask v0.11.1|
+|oAuth2 Client v4.0.0|
+|SQLAlchemy v1.1.4|
