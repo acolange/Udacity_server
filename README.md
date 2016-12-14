@@ -35,6 +35,8 @@ The configuration process involved the following steps:
 
 3.  After verifying the accounts capability to login and use sudo righs, the ssh settings were modified to disable password login and block root account login.  Configure the server to allow the proper firewall port settings: 80 for HTTP, 2200 for SSH, and 123 for NTP.  
 
-4.  Clone the catalog project from the altered git branch for the PostgreSQL database instead of SQLite.  Update the apache VirtualHost settings to use the catalog project code that is located outside the apache base directory.
+4.  Clone the catalog project from the altered git branch for the PostgreSQL database instead of SQLite.  Update the apache VirtualHost settings to use the catalog project code that is located outside the apache base directory. These updates were done prior on a dev VM to prevent any mistakes from preventing use of the AWS VM.
 
-5.  Get the PostgreSQL, Flask, oAuth2 Client, and SQLAlchemy packages downloaded and installed on the server.  
+5.  Get the PostgreSQL, Flask, oAuth2 Client, and SQLAlchemy packages downloaded and installed on the server.
+
+6.  Fix about 100 typos and stupid mistakes while getting all of the connections to work properly.
